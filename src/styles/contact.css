@@ -1,0 +1,55 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    height: fit-content;
+
+}
+
+img.anchors {
+    display: flex;
+    flex-shrink: 5;
+    min-height: 500px;
+    min-width: 500px
+}
+
+.form {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 5px black solid;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(179, 236, 179);
+    height: 570px;
+}
+
+.contact-input {
+    width: 500px;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(245, 238, 229);
+
+
+}
+
+.text-area {
+    width: 500px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(245, 238, 229);
+
+
+}
+
+.button-submit {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 30px;
+}

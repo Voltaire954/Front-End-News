@@ -1,0 +1,35 @@
+about-cards {
+    display: grid;
+    grid-template-columns: 100%;
+
+
+
+
+}
+
+.slick-dots {
+
+    background-color: white;
+}
+
+.anchor-card {
+    display: grid;
+    margin-top: 200px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.anchor-img {
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}

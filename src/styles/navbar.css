@@ -1,0 +1,119 @@
+.active {
+    background-color: rgba(131, 127, 127, 0.308);
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+
+
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0 10%;
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 2rem;
+    font-style: oblique;
+    box-shadow: 0px 5px 2px rgb(1, 26, 168);
+    border-radius: 3px;
+    background-color: rgb(213, 213, 241);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.crime {
+    text-decoration: none;
+    color: rgb(128, 111, 111);
+    font-size: 1.8rem;
+
+}
+
+.nav-left {
+    display: flex;
+
+}
+
+.nav-bar a:hover {
+    background-color: rgba(182, 181, 230, 0.445);
+    cursor: pointer;
+    text-decoration: underline;
+    border-radius: 1rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(126, 0, 245);
+}
+
+.fa-bars {
+    cursor: pointer;
+    font-size: 3rem;
+    display: none
+}
+
+@media(max-width:1200px) {}
+
+@media(max-width:1024px) {}
+
+@media(max-width: 768px) {
+
+
+    .fa-bars {
+        cursor: pointer;
+        font-size: 3rem;
+        display: grid;
+    }
+
+    .nav-right {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+        top: 5rem;
+        left: 20rem;
+        text-align: center;
+
+    }
+
+
+    span {
+        display: none;
+        background-color: rgb(1, 17, 105);
+        font-size: 1.7rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 2.8rem;
+        width: 100%;
+        border-radius: .7rem;
+        text-align: center;
+
+
+    }
+
+    .open {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .nav-bar a:hover {
+        background-color: rgba(93, 141, 245, 0.445);
+        cursor: pointer;
+        text-decoration: underline;
+        border-radius: 1rem;
+
+    }
+
+
+}
+
+@media(max-width:480px) {}

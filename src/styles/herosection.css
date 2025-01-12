@@ -1,0 +1,101 @@
+.breaking-news {
+    padding-top: 20px;
+    width: 100%;
+    z-index: 0;
+}
+
+.body {
+    display: flex;
+    flex-shrink: 5;
+    min-height: 500px;
+    position: relative;
+
+
+}
+
+.hero-title {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    color: silver;
+    top: 20%;
+    font-size: 7rem;
+    font-style: oblique;
+
+
+}
+
+.hero-form {
+    font-size: 2.8rem;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    right: 0%;
+    padding: 2px;
+    color: burlywood
+}
+
+.sign-up-btn {
+    width: 200px;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.join-input {
+    width: 500px;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+
+p {
+    margin: 0 0 0 0;
+    color: whitesmoke
+}
+
+
+@media(max-width:1200px) {}
+
+@media(max-width:1024px) {}
+
+@media(max-width: 768px) {
+    span.open {
+        display: flex;
+        flex-shrink: 1;
+        position: relative;
+        left: 55px;
+    }
+    .hero-title{
+        font-size: 3rem
+    }
+}
+
+@media(max-width: 480px) {
+    span.open {
+        display: flex;
+        flex-shrink: 1;
+
+    }
+
+
+    .hero-title {
+        display: flex;
+        position: absolute;
+        z-index: 10;
+        color: silver;
+        top: 20%;
+        font-size: 2rem;
+        font-style: oblique;
+
+
+    }
+
+    .join-input {
+        width: 300px;
+        margin-top: 10px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+}
