@@ -96,7 +96,7 @@ export default function ContactCard() {
       <CardMedia
         component="img"
         height="500"
-        image="src/assets/5-anchors-mc-240529-90ee07.webp"
+        image="5-anchors-mc-240529-90ee07.webp"
         alt="Paella dish"
       />
       <CardContent>

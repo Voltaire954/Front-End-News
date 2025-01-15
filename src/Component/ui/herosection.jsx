@@ -6,7 +6,7 @@ const HeroSection = () => {
 
   return (
     <div className="body">
-      <img className="breaking-news" src="src/assets/download (9).jpg" alt="" />
+      <img className="breaking-news" src="download (9).jpg" alt="" />
 
       <h1 className="hero-title">
         Truth You Can Trust, News You Can Count On.

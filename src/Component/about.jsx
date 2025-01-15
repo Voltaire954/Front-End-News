@@ -86,7 +86,7 @@ export default function About() {
       <>
         {" "}
         <div className="anchor-card">
-          <img className="anchor-img" src="src/assets/download (4).jpg" />
+          <img className="anchor-img" src="download (4).jpg" />
           <h1 className="title">Champ Kind</h1>{" "}
           <h2 className="text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
@@ -98,7 +98,7 @@ export default function About() {
       </>
       <div>
         <div className="anchor-card">
-          <img className="anchor-img" src="src/assets/download (5).jpg" />
+          <img className="anchor-img" src="download (5).jpg" />
           <h1 className="title">Brick Tamland</h1>
           <h2 className="text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
@@ -110,7 +110,7 @@ export default function About() {
       </div>
       <div>
         <div className="anchor-card">
-          <img className="anchor-img" src="src/assets/download (6).jpg" />
+          <img className="anchor-img" src="download (6).jpg" />
           <h1 className="title">Ed Harken</h1>
           <h2 className="text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
@@ -123,7 +123,7 @@ export default function About() {
 
       <div className="about-cards">
         <div className="anchor-card">
-          <img className="anchor-img" src="src/assets/download (7).jpg" />
+          <img className="anchor-img" src="download (7).jpg" />
           <h1 className="title">Ron Burgundy</h1>
           <h2 className="text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
