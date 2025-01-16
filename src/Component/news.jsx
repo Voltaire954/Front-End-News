@@ -22,7 +22,7 @@ const News = ({ news }) => {
 
   useEffect(() => {
     let filtered_articles = news.filter((item) =>
-      item.title.toLowerCase().includes(query.toLowerCase())
+      item.title?.toLowerCase().includes(query?.toLowerCase())
     );
     setArticles(filtered_articles);
   }, [query]);

@@ -23,7 +23,9 @@ function App() {
 
   const fetchNews = async () => {
     let news = await fetch(
-      "https://newsapi.org/v2/everything?q=tesla&from=2024-12-15&sortBy=publishedAt&apiKey=6256826922934f268b7877ce22b1276e"
+      `https://newsapi.org/v2/everything?q=tesla&from=2024-12-15&sortBy=publishedAt&apiKey=${
+        import.meta.env.VITE_NEWS_API_KEY
+      }`
     );
     news = await news.json();
     console.log(news);
