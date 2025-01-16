@@ -22,11 +22,16 @@ function App() {
   const [news, setNews] = useState([]);
 
   const fetchNews = async () => {
+    // let news = await fetch(
+    //   `https://newsapi.org/v2/everything?q=tesla&from=2024-12-15&sortBy=publishedAt&apiKey=${
+    //     import.meta.env.VITE_NEWS_API_KEY
+    //   }`
+    // );
+
     let news = await fetch(
-      `https://newsapi.org/v2/everything?q=tesla&from=2024-12-15&sortBy=publishedAt&apiKey=${
-        import.meta.env.VITE_NEWS_API_KEY
-      }`
+      `https://saurav.tech/NewsAPI/top-headlines/category/health/in.json`
     );
+
     news = await news.json();
     console.log(news);
     setNews(news.articles);
