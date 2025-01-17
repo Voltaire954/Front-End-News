@@ -8,7 +8,7 @@ const Article = () => {
   console.log(title);
   const fetchNews = async () => {
     let article = await fetch(
-      "https://newsapi.org/v2/everything?q=tesla&from=2024-11-18&sortBy=publishedAt&apiKey=6256826922934f268b7877ce22b1276e"
+      "https://saurav.tech/NewsAPI/top-headlines/category/health/in.json"
     );
     article = await article.json();
     console.log(article);

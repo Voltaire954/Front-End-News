@@ -79,7 +79,9 @@ export default function NewsCard({
           <FavoriteIcon />
         </IconButton>
         <IconButton aria-label="share">
-          <ShareIcon />
+          <a href={`/article?title=${article.title}`}>
+            <ShareIcon />
+          </a>
         </IconButton>
         <ExpandMore
           expand={expanded}

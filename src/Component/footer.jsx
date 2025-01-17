@@ -11,7 +11,7 @@ const Footer = () => {
         alignItems: "center",
         textDecoration: "none",
         paddingTop: "20px",
-        backgroundColor: "midnightblue",
+        backgroundColor: "black",
         color: "white",
         marginTop: "1rem",
       }}
@@ -32,6 +32,10 @@ const Footer = () => {
           textDecoration: "none",
           listStyle: "none",
           color: "whitesmoke",
+          display: "flex",
+          flexDirection: "column",
+          rowGap: "12px",
+          fontSize: "20px",
         }}
       >
         <li>
@@ -76,6 +80,10 @@ const Footer = () => {
           textDecoration: "none",
           listStyle: "none",
           color: "whitesmoke",
+          display: "flex",
+          flexDirection: "column",
+          rowGap: "12px",
+          fontSize: "20px",
         }}
       >
         <li>Career</li>
